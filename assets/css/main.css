@@ -79,7 +79,7 @@ a:after {
    ========================================================================== */
 
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
+	background: url(../img/header-bg.jpeg) no-repeat center top;
 	margin-top: -10px;
 	padding-top:20px;
 	text-align:center;
@@ -87,7 +87,7 @@ a:after {
 	background-position: center center;
 	min-height: 700px;
 	width: 100%;
-	
+
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
@@ -124,7 +124,7 @@ a:after {
 /* Footer Wrap */
 
 #f {
-	background: #1a1a1a;
+	background: #441308;
 	padding-top: 70px;
 	padding-bottom: 70px;
 	text-align: center
@@ -134,13 +134,19 @@ a:after {
 	color: white;
 	font-size: 28px;
 	font-weight: 700;
-	letter-spacing: 1px;	
+	letter-spacing: 1px;
 }
 
 #f i {
 	font-size: 8px;
 	color: #fff;
     padding: 3px;
+}
+
+#f i2 {
+	font-size: 50px;
+	color: #fff;
+    padding: 20px;
 }
 
 #f p {
@@ -173,7 +179,7 @@ a:after {
 	position: absolute;
 	top: 0;
 	left: 60px;
-	background: #1a1a1a;
+	background: #441308;
 	width: 200px;
 	height: 100%;
 }
@@ -200,7 +206,7 @@ a:after {
 
 .menu a {
 	margin-left: 20px;
-	color: #808080;
+	color: #ffffff;
 	display: block;
 	font-size: 12px;
 	font-weight: 700;
@@ -220,7 +226,7 @@ a:after {
 .menu a > i {
 	float: left;
 	display: inline-block;
-	vertical-align: middle; 
+	vertical-align: middle;
 	text-align: left;
 	width: 25px;
 	font-size: 14px;
@@ -309,5 +315,3 @@ a:after {
 		 -o-transition: all .1s ease-in-out;
 			transition: all .1s ease-in-out;
 }
-
-
