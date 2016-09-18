@@ -71,12 +71,27 @@ a:after {
     border-top: 1px solid #ccc;
     margin: 1em 0;
     padding: 0;
-}
+  }
 
 
 /* ==========================================================================
    Wrap Sections
    ========================================================================== */
+
+#menuwrap a {
+   color: #fff;
+   word-wrap: break-word;
+
+   -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+   -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+   -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+   -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+   transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+#menuwrap a:hover {
+  color: #7D26CD;
+}
 
 #headerwrap {
 	background: url(../img/header-bg.jpeg) no-repeat center top;
@@ -143,6 +158,18 @@ a:after {
     padding: 3px;
 }
 
+#f i:hover {
+	font-size: 8px;
+	color: #7D26CD;
+    padding: 3px;
+}
+
+#f i2:hover {
+	font-size: 50px;
+	color: #7D26CD;
+    padding: 20px;
+}
+
 #f i2 {
 	font-size: 50px;
 	color: #fff;
@@ -152,6 +179,12 @@ a:after {
 #headerwrap i2 {
 	font-size: 30px;
 	color: #fff;
+    padding: 10px;
+}
+
+#headerwrap i2:hover {
+	font-size: 30px;
+	color: #7D26CD;
     padding: 10px;
 }
 
