@@ -38,7 +38,7 @@ p {
 
 /* Links */
 a {
-    color: #f85c37;
+    color: #00FFFF;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -50,7 +50,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #7D26CD;
     text-decoration: none;
     outline: 0;
 }
@@ -73,6 +73,9 @@ a:after {
     padding: 0;
   }
 
+email {
+  color: #00FFFF;
+}
 
 /* ==========================================================================
    Wrap Sections
@@ -149,6 +152,13 @@ a:after {
 	color: white;
 	font-size: 28px;
 	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#f h2 {
+	color: white;
+	font-size: 28px;
+	font-weight: 300;
 	letter-spacing: 1px;
 }
 
