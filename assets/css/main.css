@@ -157,7 +157,7 @@ email {
 
 #f h2 {
 	color: white;
-	font-size: 28px;
+	font-size: 20px;
 	font-weight: 300;
 	letter-spacing: 1px;
 }
@@ -175,15 +175,15 @@ email {
 }
 
 #f i2:hover {
-	font-size: 50px;
+	font-size: 40px;
 	color: #7D26CD;
-    padding: 20px;
+    padding: 15px;
 }
 
 #f i2 {
-	font-size: 50px;
+	font-size: 40px;
 	color: #fff;
-    padding: 20px;
+    padding: 15px;
 }
 
 #headerwrap i2 {
