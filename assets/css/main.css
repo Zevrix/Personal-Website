@@ -349,6 +349,16 @@ email {
     width: 100%;
 }
 
+.container-fluid {
+    width: 100%;
+    max-width: 750px;
+    margin-bottom: 1.5em;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+}
 
 /* MENU CONF*/
 
