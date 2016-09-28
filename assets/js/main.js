@@ -13,5 +13,13 @@
 				$('#theMenu').toggleClass('menu-open');
     	});
 
+			$(".item").click(function(event) {
+				var clicked = $(this).attr("id");
+        var $modal = $("#" + clicked + "-modal.modal");
+        var containerId = $(this).parent().parent().attr('id');
+        if ($modal.length !== 0) {
+		  		$("#" + clicked + "-modal.modal").modal("toggle");
+        }
+			});
 
 })(jQuery)
