@@ -26,4 +26,4 @@ api.add_resource(Departmental_Salary, '/dept/<string:department_name>')
 api.add_resource(Departments_Meta, '/departments')
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0')
