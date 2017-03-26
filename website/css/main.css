@@ -1,0 +1,15 @@
+header {
+  background: url(../img/bg-hero.jpg) purple;
+}
+
+h1 {
+  font-weight: 700;
+}
+
+.bg-primary {
+  background: #c10505;
+}
+
+section.contact h2 i {
+  color: white;
+}
