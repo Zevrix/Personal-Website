@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, redirect
 from flask_restful import Resource, Api
 import random
 
@@ -16,7 +16,8 @@ class randomSEwebsite(Resource):
             "Matt": "http://mattdsouza.com",
             "Holly": "http://hollyoegema.com"
         }
-        return random.choice(list(websites.values()))
+        lucker_dog = random.choice(list(websites.values()))
+        return redirect(lucker_dog, code=302)
 
 
 api.add_resource(randomSEwebsite, '/randomSEwebsite')
