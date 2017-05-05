@@ -14,7 +14,9 @@ class randomSEwebsite(Resource):
             "Stephen": "https://melinysh.me",
             "James": "http://jameshageman.com",
             "Matt": "http://mattdsouza.com",
-            "Holly": "http://hollyoegema.com"
+            "Holly": "http://hollyoegema.com",
+            "George": "http://georgeutsin.com/",
+            "Spencer": "http://spencerdobrik.com/"
         }
         lucker_dog = random.choice(list(websites.values()))
         return redirect(lucker_dog, code=302)
