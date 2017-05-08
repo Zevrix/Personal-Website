@@ -23,8 +23,8 @@ class randomSEwebsite(Resource):
             "Prilik": "http://prilik.com/",
             "Kevin": "http://kpeng.ca/",
         }
-        omit = request.args.get('omit')
-        websites.pop(omit, None) # passing None masks KeyErrors
+        omit = request.args.get('omit')  # e.g. http://arashrai.com:5000/randomSEwebsite?omit=Arash will omit my website
+        websites.pop(omit, None)  # passing None masks KeyErrors
         lucker_dog = random.choice(list(websites.values()))
         return redirect(lucker_dog, code=302)
 
