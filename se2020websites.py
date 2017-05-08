@@ -1,10 +1,9 @@
-from flask import Flask, redirect
+from flask import Flask, redirect, request
 from flask_restful import Resource, Api
 import random
 
 app = Flask(__name__)
 api = Api(app)
-
 
 # circlejerk function
 class randomSEwebsite(Resource):
@@ -21,8 +20,11 @@ class randomSEwebsite(Resource):
             "Ryan": "http://www.ryan-martin.ca/",
             "Denton": "http://dentonliu.com/",
             "Stanley": "http://stanhuan.com/",
-            "Prilik": "http://prilik.com/"
+            "Prilik": "http://prilik.com/",
+            "Kevin": "http://kpeng.ca/",
         }
+        omit = request.args.get('omit')
+        websites.pop(omit, None) # passing None masks KeyErrors
         lucker_dog = random.choice(list(websites.values()))
         return redirect(lucker_dog, code=302)
 
