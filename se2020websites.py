@@ -22,6 +22,7 @@ class randomSEwebsite(Resource):
             "Stanley": "http://stanhuan.com/",
             "Prilik": "http://prilik.com/",
             "Kevin": "http://kpeng.ca/",
+            "Tyler": "http://tnychka.me",
         }
         omit = request.args.get('omit')  # e.g. http://arashrai.com:5000/randomSEwebsite?omit=Arash will omit my website
         websites.pop(omit, None)  # passing None masks KeyErrors
