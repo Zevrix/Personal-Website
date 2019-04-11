@@ -16,7 +16,6 @@ class randomSEwebsite(Resource):
             "Holly": "http://hollyoegema.com",
             "George": "http://georgeutsin.com/",
             "Spencer": "http://spencerdobrik.com/",
-            "Liam": "http://liamca.xyz/",
             "Ryan": "http://www.ryan-martin.ca/",
             "Denton": "http://dentonliu.com/",
             "Stanley": "http://stanhuan.com/",
